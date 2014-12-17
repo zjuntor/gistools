@@ -11,4 +11,18 @@ algorithms : base algorithms used in this toolset
 simplify : simplifiers used to simplify graphics
 
 
+usage
+========
+LiOpenShawSimplify
+
+Using Li-Openshaw algorithms to simplify graphics
+
+//scaleSrc is the source map scale
+//scaleDist is the destination map scale
+//lineString is the LineString object to simplify
+LiOpenShawSimplify simp = new LiOpenShawSimplify(scaleSrc,scaleDist,lineString);
+LineString res = simp.simplify()
+
+
+
 
