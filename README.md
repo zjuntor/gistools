@@ -5,24 +5,25 @@ gistools is a gis toolset and it exsit for some gis tools that not included in p
 
 
 packages
-========
+--------
 
-algorithms : base algorithms used in this toolset
+algorithms : base algorithms used in this toolset  
 simplify : simplifiers used to simplify graphics
 
 
 usage
-========
-LiOpenShawSimplify
-
+--------
+LiOpenShawSimplify  
 Using Li-Openshaw algorithms to simplify graphics
-
+<pre>
+    <code>
 //scaleSrc is the source map scale
 //scaleDist is the destination map scale
 //lineString is the LineString object to simplify
 LiOpenShawSimplify simp = new LiOpenShawSimplify(scaleSrc,scaleDist,lineString);
 LineString res = simp.simplify()
-
+    </code>
+</pre>
 
 
 
